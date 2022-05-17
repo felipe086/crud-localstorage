@@ -10,11 +10,11 @@ const createAluno = (student) => {
 
 const searchStudent = () => getLocalStorage()
 
-const updateStudent = (index, student) => {
+/*const updateStudent = (index, student) => {
     const dbStudent = searchStudent()
     dbStudent[index] = student
     setLocalStorage(dbStudent)
-}
+}*/
 
 const deleteStudent = (index) => {
     const dbStudent = searchStudent()
